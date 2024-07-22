@@ -1,0 +1,62 @@
+.inventory {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7fafc; /* Tailwind bg-gray-100 */
+    margin-top: 2.5rem; /* Tailwind mt-10 */
+  }
+  
+  .inventory-form {
+    background-color: #ffffff; /* Tailwind bg-white */
+    padding: 1rem; /* Tailwind p-4 */
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind shadow-md */
+    width: 100%;
+    max-width: 28rem; /* Tailwind max-w-md */
+  }
+  
+  .form-title {
+    font-size: 1.5rem; /* Tailwind text-xl */
+    font-weight: 700; /* Tailwind font-bold */
+    margin-bottom: 0.75rem; /* Tailwind mb-3 */
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 0.5rem; /* Tailwind mb-2 */
+  }
+  
+  .form-label {
+    display: block;
+    color: #4a5568; /* Tailwind text-gray-700 */
+    font-size: 0.875rem; /* Tailwind text-sm */
+    font-weight: 700; /* Tailwind font-bold */
+    margin-bottom: 0.25rem; /* Tailwind mb-1 */
+  }
+  
+  .form-input {
+    width: 100%; /* Tailwind w-full */
+    padding: 0.5rem; /* Tailwind px-2 py-1 */
+    border: 1px solid #e2e8f0; /* Tailwind border */
+    border-radius: 0.25rem; /* Tailwind rounded */
+    font-size: 0.875rem; /* Tailwind text-sm */
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .form-input:focus {
+    border-color: #4299e1; /* Tailwind border-blue-500 */
+    box-shadow: 0 0 0 1px #4299e1; /* Tailwind focus:ring */
+  }
+  
+  .btn {
+    padding: 0.5rem; /* Tailwind py-1 */
+    font-size: 0.875rem; /* Tailwind text-sm */
+    border-radius: 0.25rem; /* Tailwind rounded */
+  }
+  
+  .w-full {
+    width: 100%; /* Tailwind w-full */
+  }
+  
